@@ -14,9 +14,9 @@ let num1
 // try to find the number into the array, if find is displayed
 while (input.length > 0) {
     num1 = input.pop()
-    let clave = expected - num1
-    let encontrado = input.find((el) => {return el == clave})
-    if (typeof encontrado === 'number') {
-        console.log(`${num1}, ${encontrado}`)
+    let key = expected - num1
+    let found = input.find((el) => {return el == key})
+    if (typeof found === 'number') {
+        console.log(`${num1}, ${found}`)
     }
 }
